@@ -1,5 +1,12 @@
-# ShotTrackingAnalysis
-Investigating selection bias in grading of shot type.
+# Shot Type Grading Analysis
+
+Inspired by threads on here on grading of shot type showing weird numbers like Kobe's turnaround fadeaways or Steph's pullup 3s.
+
+https://www.reddit.com/r/nba/comments/clj8yc/mamba_mentality_prime_kobe_bryant_20012013_shot/
+
+https://www.reddit.com/r/nba/comments/bwodpq/oc_wardell_currys_shot_chart_on_pullup_jumpers/
+
+So I'm investigating possible selection bias in grading of shot type. Used 3 year spans.
 
 ## Regular Season 04/05 to 06/07
 
@@ -58,12 +65,12 @@ Jump shots are close to 90% of all midrangers.
 |RC3|9286|23851|0.389|1.168|
 |BCOURT|29|1489|0.019|0.058​|
 
-There are more shot types in the later dataset. Now jump shots are close to 44% of all midrangers.
+There are more shot types in the later dataset. Now jump shots are close to 44% of all midrangers. And total midrangers have gone from 206591 to 120186.
 
 
 
 ## Player Breakdown
-Difference between fadeaway and turnaround shots vs regular jump shot on mid-rangers
+Difference between fadeaway and turnaround shots vs regular jump shot on midrangers
 
 |**PLAYER_NAME**|**FGM**|**FGA**|**FG%**|**FG%_JS**|**FG%_DIFF**|**FGM_JS**|**FGA_JS**|
 :--|:--|:--|:--|:--|:--|:--|:--|
@@ -96,7 +103,7 @@ Difference between fadeaway and turnaround shots vs regular jump shot on mid-ran
 |Harrison Barnes|90|200|0.45|0.366|0.084|164|448​|
 
 
-For the earlier seasons there seems to be some selection bias going on where made field goals are more likely to be graded as turnaround or fadeaway shots. From 16 onward it
+For the earlier seasons there seems to be some selection bias going on where made field goals are more likely to be graded as turnaround or fadeaway shots.
 
 
 ## Grading of 3 pointers
