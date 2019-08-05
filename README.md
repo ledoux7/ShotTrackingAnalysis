@@ -1,74 +1,82 @@
 # ShotTrackingAnalysis
-Investigating selection bias in grading of shot type
+Investigating selection bias in grading of shot type.
 
-## Regular Season 05/06
+## Regular Season 04/05 to 06/07
+
 |**SHOT_ZONE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**PPS**|
 :--|:--|:--|:--|:--|:--|
-|MR|Jump Shot|22608|59859|0.378|0.756|
-|MR|Turnaround Jump Shot|1355|2487|0.545|1.09|
-|MR|Fadeaway Jump Shot|1196|2009|0.595|1.191|
-|MR|Running Jump Shot|535|934|0.573|1.146|
-|MR|Jump Bank Shot|611|910|0.671|1.343|
+|MR|Jump Shot|68177|180649|0.377|0.755|
+|MR|Turnaround Jump Shot|3888|7357|0.528|1.057|
+|MR|Fadeaway Jump Shot|3295|5612|0.587|1.174|
+|MR|Jump Bank Shot|2082|3170|0.657|1.314|
+|MR|Running Jump Shot|1618|2884|0.561|1.122|
+|MR|Hook Shot|393|1128|0.348|0.697|
+|MR|Jump Hook Shot|257|493|0.521|1.043|
+|MR|Turnaround Hook Shot|132|261|0.506|1.011​|
+
 
 &nbsp;
 
 |**SHOT_ZONE**|**FGM**|**FGA**|**FG%**|**PPS**|
 :--|:--|:--|:--|:--|
-|MR|26627|66926|0.398|0.796|
-|RA|37304|63017|0.592|1.184|
-|ATB3|9752|27816|0.351|1.052|
-|PAINT|10167|25107|0.405|0.81|
-|LC3|2184|5668|0.385|1.156|
-|RC3|2123|5409|0.392|1.176|
-|BCOURT|9|371|0.024|0.073​|
-
-Jump shots are close to 90% of all midrangers
+|MR|79935|201719|0.396|0.793|
+|RA|112985|190672|0.593|1.185|
+|ATB3|29736|84800|0.351|1.052|
+|PAINT|30824|76078|0.405|0.81|
+|LC3|6694|17505|0.382|1.147|
+|RC3|6265|16128|0.388|1.164|
+|BCOURT|22|1110|0.02|0.059​|
 
 
-## Regular Season 18/19
+Jump shots are close to 90% of all midrangers.
+
+
+## Regular Season 16/17 to 18/19
+
 |**SHOT_ZONE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**PPS**|
 :--|:--|:--|:--|:--|:--|
-|MR|Pullup Jump shot|5076|11791|0.43|0.861|
-|MR|Jump Shot|3754|10363|0.362|0.729|
-|MR|Step Back Jump shot|1504|3489|0.431|0.862|
-|MR|Fadeaway Jump Shot|749|1916|0.391|0.782|
-|MR|Turnaround Fadeaway shot|581|1374|0.423|0.846|
-|MR|Turnaround Jump Shot|469|1261|0.372|0.744​|
+|MR|Jump Shot|18726|53466|0.35|0.702|
+|MR|Pullup Jump shot|15254|33177|0.46|0.92|
+|MR|Step Back Jump shot|4332|9688|0.447|0.895|
+|MR|Fadeaway Jump Shot|2318|5676|0.408|0.817|
+|MR|Turnaround Jump Shot|1724|4369|0.395|0.789|
+|MR|Turnaround Fadeaway shot|1713|3844|0.446|0.891|
+|MR|Floating Jump shot|898|2289|0.392|0.785|
+|MR|Driving Floating Jump Shot|769|1893|0.406|0.812|
+|MR|Jump Bank Shot|530|1112|0.477|0.953​|
+
 
 &nbsp;
 
 |**SHOT_ZONE**|**FGM**|**FGA**|**FG%**|**PPS**|
 :--|:--|:--|:--|:--|
-|RA|45574|72427|0.629|1.258|
-|ATB3|21061|60285|0.349|1.048|
-|PAINT|14177|35122|0.404|0.807|
-|MR|13404|33275|0.403|0.807|
-|LC3|3519|9112|0.386|1.159|
-|RC3|3313|8771|0.378|1.133|
-|BCOURT|14|466|0.03|0.09​|
+|RA|128875|206591|0.624|1.248|
+|ATB3|58290|165477|0.352|1.057|
+|MR|48422|120186|0.403|0.806|
+|PAINT|39831|98188|0.406|0.811|
+|LC3|9754|25312|0.385|1.156|
+|RC3|9286|23851|0.389|1.168|
+|BCOURT|29|1489|0.019|0.058​|
 
-Total mid-rangers are cut in half since 05/06 to now 33275 FGAs
+There are more shot types in the later dataset. Now jump shots are close to 44% of all midrangers.
+
+
 
 ## Player Breakdown
 Difference between fadeaway and turnaround shots vs regular jump shot on mid-rangers
 
 |**PLAYER_NAME**|**FGM**|**FGA**|**FG%**|**FG%_JS**|**FG%_DIFF**|**FGM_JS**|**FGA_JS**|
 :--|:--|:--|:--|:--|:--|:--|:--|
-|Dirk Nowitzki|101|164|0.616|0.439|0.177|260|592|
-|Kobe Bryant|106|153|0.693|0.355|0.338|281|792|
-|Kevin Garnett|72|131|0.55|0.451|0.099|215|477|
-|Jason Richardson|58|112|0.518|0.296|0.222|80|270|
-|Yao Ming|54|100|0.54|0.252|0.288|41|163|
-|LeBron James|44|93|0.473|0.348|0.125|178|511|
-|Carmelo Anthony|38|73|0.521|0.398|0.123|225|566|
-|Elton Brand|53|73|0.726|0.417|0.309|221|530|
-|Dwyane Wade|29|70|0.414|0.359|0.055|163|454|
-|Chris Bosh|24|63|0.381|0.455|-0.074|212|466|
-|Rasheed Wallace|36|61|0.59|0.387|0.203|111|287|
-|Paul Pierce|39|61|0.639|0.411|0.228|182|443|
-|Jerry Stackhouse|28|59|0.475|0.376|0.099|79|210|
-|Vince Carter|29|59|0.492|0.386|0.106|139|360|
-|Allen Iverson|45|54|0.833|0.351|0.482|235|669​|
+|Kevin Garnett|242|421|0.575|0.414|0.161|624|1507|
+|Dirk Nowitzki|236|385|0.613|0.43|0.183|811|1884|
+|Yao Ming|189|338|0.559|0.308|0.251|130|422|
+|Kobe Bryant|204|305|0.669|0.347|0.322|600|1729|
+|LeBron James|115|241|0.477|0.335|0.142|497|1483|
+|Jason Richardson|111|238|0.466|0.317|0.149|231|729|
+|Vince Carter|117|228|0.513|0.383|0.13|442|1155|
+|Rasheed Wallace|122|226|0.54|0.37|0.17|298|805|
+|Tracy McGrady|107|211|0.507|0.409|0.098|685|1675​|
+
 
 
 &nbsp;
@@ -76,19 +84,19 @@ Difference between fadeaway and turnaround shots vs regular jump shot on mid-ran
 
 |**PLAYER_NAME**|**FGM**|**FGA**|**FG%**|**FG%_JS**|**FG%_DIFF**|**FGM_JS**|**FGA_JS**|
 :--|:--|:--|:--|:--|:--|:--|:--|
-|LaMarcus Aldridge|99|216|0.458|0.473|-0.015|114|241|
-|Kevin Durant|89|153|0.582|0.432|0.15|54|125|
-|DeMar DeRozan|45|121|0.372|0.451|-0.079|51|113|
-|Dwyane Wade|37|112|0.33|0.167|0.163|5|30|
-|Klay Thompson|49|96|0.51|0.325|0.185|49|151|
-|Lou Williams|36|88|0.409|0.28|0.129|14|50|
-|Kyrie Irving|47|86|0.547|0.48|0.067|24|50|
-|LeBron James|30|78|0.385|0.541|-0.156|20|37|
-|Kawhi Leonard|31|70|0.443|0.475|-0.032|28|59|
-|Jayson Tatum|24|68|0.353|0.188|0.165|6|32|
-|Khris Middleton|29|61|0.475|0.333|0.142|27|81​|
+|LaMarcus Aldridge|263|599|0.439|0.426|0.013|362|849|
+|DeMar DeRozan|152|364|0.418|0.344|0.074|162|471|
+|Dwyane Wade|112|288|0.389|0.249|0.14|69|277|
+|Kevin Durant|158|280|0.564|0.403|0.161|160|397|
+|LeBron James|113|273|0.414|0.367|0.047|87|237|
+|Andrew Wiggins|104|267|0.39|0.271|0.119|107|395|
+|Dirk Nowitzki|92|223|0.413|0.454|-0.041|248|546|
+|Marc Gasol|96|221|0.434|0.434|0|247|569|
+|Klay Thompson|111|206|0.539|0.38|0.159|217|571|
+|Harrison Barnes|90|200|0.45|0.366|0.084|164|448​|
 
-For the 05/06 season there seems to be some selection bias going on where made field goals are more likely to be graded as turnaround or fadeaway shots. For 18/19 there is a smaller sample size so it is harder to tell if there are some biases affecting grading.
+
+For the earlier seasons there seems to be some selection bias going on where made field goals are more likely to be graded as turnaround or fadeaway shots. From 16 onward it
 
 
 ## Grading of 3 pointers
@@ -97,16 +105,21 @@ For the 05/06 season there seems to be some selection bias going on where made f
 
 |**PLAYER_NAME**|**SHOT_VALUE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**FG%_3P**|**FG%_DIFF**|**FGA_3P**|
 :--|:--|:--|:--|:--|:--|:--|:--|:--|
-|Klay Thompson|3|Pullup Jump shot|44|72|0.611|0.402|0.209|599|
-|Stephen Curry|3|Pullup Jump shot|88|140|0.629|0.437|0.192|810|
-|Blake Griffin|3|Pullup Jump shot|42|101|0.416|0.362|0.054|522|
-|D'Angelo Russell|3|Pullup Jump shot|80|194|0.412|0.369|0.043|635|
-|Spencer Dinwiddie|3|Pullup Jump shot|40|107|0.374|0.335|0.039|370|
-|Kevin Durant|3|Pullup Jump shot|32|82|0.39|0.353|0.037|388|
-|Luka Doncic|3|Step Back Jump shot|60|166|0.361|0.327|0.034|514|
-|Kemba Walker|3|Pullup Jump shot|92|238|0.387|0.356|0.031|731|
-|Damian Lillard|3|Pullup Jump shot|114|287|0.397|0.369|0.028|643​|
+|Andre Iguodala|3|Pullup Jump shot|48|75|0.64|0.331|0.309|438|
+|Draymond Green|3|Pullup Jump shot|60|106|0.566|0.3|0.266|684|
+|Quinn Cook|3|Pullup Jump shot|50|78|0.641|0.418|0.223|330|
+|Klay Thompson|3|Pullup Jump shot|153|242|0.632|0.418|0.214|1766|
+|Stephen Curry|3|Pullup Jump shot|212|341|0.622|0.424|0.198|2099|
+|Stephen Curry|3|Step Back Jump shot|96|159|0.604|0.424|0.18|2099|
+|Austin Rivers|3|Pullup Jump shot|41|82|0.5|0.357|0.143|984|
+|Wesley Matthews|3|Step Back Jump shot|44|87|0.506|0.371|0.135|1284|
+|Kevin Durant|3|Pullup Jump shot|127|250|0.508|0.384|0.124|1113|
+|Lou Williams|3|Pullup Jump shot|78|162|0.481|0.362|0.119|1254|
+|Isaiah Thomas|3|Pullup Jump shot|78|171|0.456|0.356|0.1|877|
+|Tobias Harris|3|Pullup Jump shot|38|78|0.487|0.389|0.098|1151|
+|LeBron James|3|Step Back Jump shot|56|123|0.455|0.358|0.097|1074​|
 
 
-Some players might actually be better at step backs or pullups than other types even though they are "harder" shots. Hard to tell if there is something going on due high volatility from 3 pointers and low sample sizes. Though Steph and Klay seems to have unreasonable high FG%.
+
+Warriros have good shooters, but there seems to be something going on here. Hard to tell if there is something going elsewhere due too high volatility on 3 pointers. Worth metioning that some players might actually be better at step backs or pullups than other types even though they are "harder" shots. 
 
