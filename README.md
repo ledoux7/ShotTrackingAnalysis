@@ -53,42 +53,54 @@ Total mid range field goal attempts is 33275
 
 ## Player Breakdown
 
-|**PLAYER_NAME**|**SHOT_ZONE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**PPS**|**SHOT_TYPE_JS**|**FGM_JS**|**FGA_JS**|**FG%_JS**|**PPS_JS**|**FG%_DIFF**|
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|LaMarcus Aldridge|MR|Turnaround Jump Shot|42|101|0.416|0.832|Jump Shot|114|241|0.473|0.946|-0.057|
-|Lou Williams|MR|Fadeaway Jump Shot|36|87|0.414|0.828|Jump Shot|14|50|0.28|0.56|0.134|
-|Kevin Durant|MR|Fadeaway Jump Shot|52|80|0.65|1.3|Jump Shot|54|125|0.432|0.864|0.218|
-|Buddy Hield|MR|Fadeaway Jump Shot|20|50|0.4|0.8|Jump Shot|35|90|0.389|0.789|0.011|
-|Kyrie Irving|MR|Fadeaway Jump Shot|27|45|0.6|1.2|Jump Shot|24|50|0.48|0.96|0.12|
-|DeMar DeRozan|MR|Turnaround Jump Shot|16|45|0.356|0.711|Jump Shot|51|113|0.451|0.903|-0.095|
-|Klay Thompson|MR|Fadeaway Jump Shot|22|42|0.524|1.048|Jump Shot|49|151|0.325|0.649|0.199|
-|Deandre Ayton|MR|Turnaround Jump Shot|21|40|0.525|1.05|Jump Shot|55|160|0.344|0.688|0.181|
-|Damian Lillard|MR|Fadeaway Jump Shot|15|39|0.385|0.769|Jump Shot|13|36|0.361|0.722|0.024|
-|Jayson Tatum|MR|Fadeaway Jump Shot|9|35|0.257|0.514|Jump Shot|6|32|0.188|0.375|0.069|
-|Chris Paul|MR|Fadeaway Jump Shot|15|34|0.441|0.882|Jump Shot|16|30|0.533|1.1|-0.092|
-|Nikola Vucevic|MR|Turnaround Jump Shot|11|32|0.344|0.688|Jump Shot|97|210|0.462|0.924|-0.118|
-|Zach LaVine|MR|Fadeaway Jump Shot|8|32|0.25|0.5|Jump Shot|15|54|0.278|0.556|-0.028|
-|Kawhi Leonard|MR|Fadeaway Jump Shot|13|32|0.406|0.812|Jump Shot|28|59|0.475|0.949|-0.069|
-|LaMarcus Aldridge|MR|Fadeaway Jump Shot|13|31|0.419|0.839|Jump Shot|114|241|0.473|0.946|-0.054​|
+|**PLAYER_NAME**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**FG%_JS**|**FG%_DIFF**|**FGM_JS**|**FGA_JS**|**SHOT_TYPE_JS**|
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|Dirk Nowitzki|Fadeaway Jump Shot|70|114|0.614|0.439|0.175|260|592|Jump Shot|
+|Kevin Garnett|Turnaround Jump Shot|54|98|0.551|0.451|0.1|215|477|Jump Shot|
+|Yao Ming|Turnaround Jump Shot|47|91|0.516|0.252|0.264|41|163|Jump Shot|
+|Kobe Bryant|Fadeaway Jump Shot|48|77|0.623|0.355|0.268|281|792|Jump Shot|
+|Kobe Bryant|Turnaround Jump Shot|58|76|0.763|0.355|0.408|281|792|Jump Shot|
+|Jason Richardson|Fadeaway Jump Shot|41|70|0.586|0.296|0.29|80|270|Jump Shot|
+|Elton Brand|Turnaround Jump Shot|48|67|0.716|0.417|0.299|221|530|Jump Shot|
+|LeBron James|Fadeaway Jump Shot|34|64|0.531|0.348|0.183|178|511|Jump Shot|
+|Rasheed Wallace|Turnaround Jump Shot|35|54|0.648|0.387|0.261|111|287|Jump Shot|
+|Allen Iverson|Fadeaway Jump Shot|43|52|0.827|0.351|0.476|235|669|Jump Shot|
+|Dirk Nowitzki|Turnaround Jump Shot|31|50|0.62|0.439|0.181|260|592|Jump Shot|
+|Dwyane Wade|Fadeaway Jump Shot|20|49|0.408|0.359|0.049|163|454|Jump Shot|
+|Baron Davis|Fadeaway Jump Shot|27|45|0.6|0.227|0.373|34|150|Jump Shot|
+|Jermaine O'Neal|Turnaround Jump Shot|31|42|0.738|0.317|0.421|92|290|Jump Shot|
+|Jason Richardson|Turnaround Jump Shot|17|42|0.405|0.296|0.109|80|270|Jump Shot​|
 
 
-## 06
 
-|**PLAYER_NAME**|**SHOT_ZONE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**PPS**|**SHOT_TYPE_JS**|**FGM_JS**|**FGA_JS**|**FG%_JS**|**PPS_JS**|**FG%_DIFF**|
-:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|Dirk Nowitzki|MR|Fadeaway Jump Shot|70|114|0.614|1.228|Jump Shot|260|592|0.439|0.878|0.175|
-|Kevin Garnett|MR|Turnaround Jump Shot|54|98|0.551|1.102|Jump Shot|215|477|0.451|0.901|0.1|
-|Yao Ming|MR|Turnaround Jump Shot|47|91|0.516|1.033|Jump Shot|41|163|0.252|0.503|0.264|
-|Kobe Bryant|MR|Fadeaway Jump Shot|48|77|0.623|1.247|Jump Shot|281|792|0.355|0.71|0.268|
-|Kobe Bryant|MR|Turnaround Jump Shot|58|76|0.763|1.526|Jump Shot|281|792|0.355|0.71|0.408|
-|Jason Richardson|MR|Fadeaway Jump Shot|41|70|0.586|1.171|Jump Shot|80|270|0.296|0.593|0.29|
-|Elton Brand|MR|Turnaround Jump Shot|48|67|0.716|1.433|Jump Shot|221|530|0.417|0.834|0.299|
-|LeBron James|MR|Fadeaway Jump Shot|34|64|0.531|1.062|Jump Shot|178|511|0.348|0.697|0.183|
-|Rasheed Wallace|MR|Turnaround Jump Shot|35|54|0.648|1.296|Jump Shot|111|287|0.387|0.774|0.261|
-|Allen Iverson|MR|Fadeaway Jump Shot|43|52|0.827|1.654|Jump Shot|235|669|0.351|0.703|0.476|
-|Dirk Nowitzki|MR|Turnaround Jump Shot|31|50|0.62|1.24|Jump Shot|260|592|0.439|0.878|0.181|
-|Dwyane Wade|MR|Fadeaway Jump Shot|20|49|0.408|0.816|Jump Shot|163|454|0.359|0.718|0.049|
-|Baron Davis|MR|Fadeaway Jump Shot|27|45|0.6|1.2|Jump Shot|34|150|0.227|0.453|0.373|
-|Jermaine O'Neal|MR|Turnaround Jump Shot|31|42|0.738|1.476|Jump Shot|92|290|0.317|0.634|0.421|
-|Jason Richardson|MR|Turnaround Jump Shot|17|42|0.405|0.81|Jump Shot|80|270|0.296|0.593|0.109​|
+## 19
 
+|**PLAYER_NAME**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**FG%_JS**|**FG%_DIFF**|**FGM_JS**|**FGA_JS**|**SHOT_TYPE_JS**|
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|LaMarcus Aldridge|Turnaround Jump Shot|42|101|0.416|0.473|-0.057|114|241|Jump Shot|
+|Lou Williams|Fadeaway Jump Shot|36|87|0.414|0.28|0.134|14|50|Jump Shot|
+|Kevin Durant|Fadeaway Jump Shot|52|80|0.65|0.432|0.218|54|125|Jump Shot|
+|Buddy Hield|Fadeaway Jump Shot|20|50|0.4|0.389|0.011|35|90|Jump Shot|
+|Kyrie Irving|Fadeaway Jump Shot|27|45|0.6|0.48|0.12|24|50|Jump Shot|
+|DeMar DeRozan|Turnaround Jump Shot|16|45|0.356|0.451|-0.095|51|113|Jump Shot|
+|Klay Thompson|Fadeaway Jump Shot|22|42|0.524|0.325|0.199|49|151|Jump Shot|
+|Deandre Ayton|Turnaround Jump Shot|21|40|0.525|0.344|0.181|55|160|Jump Shot|
+|Damian Lillard|Fadeaway Jump Shot|15|39|0.385|0.361|0.024|13|36|Jump Shot|
+|Jayson Tatum|Fadeaway Jump Shot|9|35|0.257|0.188|0.069|6|32|Jump Shot|
+|Chris Paul|Fadeaway Jump Shot|15|34|0.441|0.533|-0.092|16|30|Jump Shot|
+|Nikola Vucevic|Turnaround Jump Shot|11|32|0.344|0.462|-0.118|97|210|Jump Shot​|
+
+
+## Hmm
+
+|**PLAYER_NAME**|**SHOT_VALUE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**PPS**|**FG%_3P**|**FG%_DIFF**|
+:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|Klay Thompson|3|Pullup Jump shot|44|72|0.611|1.833|0.402|0.209|
+|Stephen Curry|3|Pullup Jump shot|88|140|0.629|1.886|0.437|0.192|
+|Blake Griffin|3|Pullup Jump shot|42|101|0.416|1.248|0.362|0.054|
+|D'Angelo Russell|3|Pullup Jump shot|80|194|0.412|1.237|0.369|0.043|
+|Spencer Dinwiddie|3|Pullup Jump shot|40|107|0.374|1.121|0.335|0.039|
+|Kevin Durant|3|Pullup Jump shot|32|82|0.39|1.171|0.353|0.037|
+|Luka Doncic|3|Step Back Jump shot|60|166|0.361|1.084|0.327|0.034|
+|Kemba Walker|3|Pullup Jump shot|92|238|0.387|1.16|0.356|0.031|
+|Damian Lillard|3|Pullup Jump shot|114|287|0.397|1.192|0.369|0.028​|
