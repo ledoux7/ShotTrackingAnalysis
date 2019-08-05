@@ -92,7 +92,9 @@ For the 05/06 season there seems to be some selection bias going on where made f
 
 
 ## Grading of 3 pointers
+
 3P FGA also includes pullup / step back.
+
 |**PLAYER_NAME**|**SHOT_VALUE**|**SHOT_TYPE**|**FGM**|**FGA**|**FG%**|**FG%_3P**|**FG%_DIFF**|**FGA_3P**|
 :--|:--|:--|:--|:--|:--|:--|:--|:--|
 |Klay Thompson|3|Pullup Jump shot|44|72|0.611|0.402|0.209|599|
@@ -104,6 +106,7 @@ For the 05/06 season there seems to be some selection bias going on where made f
 |Luka Doncic|3|Step Back Jump shot|60|166|0.361|0.327|0.034|514|
 |Kemba Walker|3|Pullup Jump shot|92|238|0.387|0.356|0.031|731|
 |Damian Lillard|3|Pullup Jump shot|114|287|0.397|0.369|0.028|643​|
+
 
 Some players might actually be better at step backs or pullups than other types even though they are "harder" shots. Hard to tell if there is something going on due high volatility from 3 pointers and low sample sizes. Though Steph and Klay seems to have unreasonable high FG%.
 
